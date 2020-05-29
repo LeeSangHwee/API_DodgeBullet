@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\11.Manager">
+      <UniqueIdentifier>{302ef5ee-b08a-4de0-b57b-e9a2796c2174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11.Manager\01.dsManager">
+      <UniqueIdentifier>{8ce854f7-17a4-401b-a6cd-7830941fa5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11.Manager\02.dsSpriteManager">
+      <UniqueIdentifier>{7f41a5aa-e06f-4dd3-9c71-5bd4f1f79f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11.Manager\03.dsOpenALSoundManager">
+      <UniqueIdentifier>{ab4d8294-c355-4d29-a4c3-0d2cb908239d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11.Manager\04.ImageManager">
+      <UniqueIdentifier>{6e052006-0fc4-4c60-a16b-2b117bbf86da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.dsObject">
+      <UniqueIdentifier>{964653eb-1882-43f4-b640-c38b552db258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.dsResource">
+      <UniqueIdentifier>{c526c117-a2a4-4730-81e9-91f26eb35be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.dsSprite">
+      <UniqueIdentifier>{0ac7bf54-9146-4697-8718-9fdaa58e059b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.MyImage">
+      <UniqueIdentifier>{19b35284-bcd7-429a-8229-fc04a4586e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.dsSound">
+      <UniqueIdentifier>{fae26dd7-7ce1-4f04-9887-782aa3160c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.CWaves">
+      <UniqueIdentifier>{85ba6b61-f913-4ae8-8550-80c87b5578c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dsManager.cpp">
+      <Filter>소스 파일\11.Manager\01.dsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="dsSpriteManager.cpp">
+      <Filter>소스 파일\11.Manager\02.dsSpriteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="dsOpenALSoundManager.cpp">
+      <Filter>소스 파일\11.Manager\03.dsOpenALSoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>소스 파일\11.Manager\04.ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="dsObject.cpp">
+      <Filter>소스 파일\01.dsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="dsResource.cpp">
+      <Filter>소스 파일\02.dsResource</Filter>
+    </ClCompile>
+    <ClCompile Include="dsSprite.cpp">
+      <Filter>소스 파일\03.dsSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="MyImage.cpp">
+      <Filter>소스 파일\04.MyImage</Filter>
+    </ClCompile>
+    <ClCompile Include="dsSound.cpp">
+      <Filter>소스 파일\05.dsSound</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaves.cpp">
+      <Filter>소스 파일\06.CWaves</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dsManager.h">
+      <Filter>소스 파일\11.Manager\01.dsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="dsSpriteManager.h">
+      <Filter>소스 파일\11.Manager\02.dsSpriteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="dsOpenALSoundManager.h">
+      <Filter>소스 파일\11.Manager\03.dsOpenALSoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>소스 파일\11.Manager\04.ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="dsObject.h">
+      <Filter>소스 파일\01.dsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="dsResource.h">
+      <Filter>소스 파일\02.dsResource</Filter>
+    </ClInclude>
+    <ClInclude Include="dsSprite.h">
+      <Filter>소스 파일\03.dsSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImage.h">
+      <Filter>소스 파일\04.MyImage</Filter>
+    </ClInclude>
+    <ClInclude Include="dsSound.h">
+      <Filter>소스 파일\05.dsSound</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaves.h">
+      <Filter>소스 파일\06.CWaves</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
